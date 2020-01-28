@@ -11,3 +11,17 @@ body {
 }
 
 /* main */
+p {
+  background-color: lightblue;
+}
+
+
+/* note */
+.font {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+}
+
+.color {
+
+}
