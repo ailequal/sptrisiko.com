@@ -41,6 +41,10 @@ a {
   font-size: 20px;
 }
 
+.nav-bar i {
+  font-size: 32px;
+}
+
 .nav-desktop {
   justify-content: flex-end;
   align-items: center;
@@ -77,13 +81,47 @@ a {
   right: 40px;
 }
 
+.main-title {
+  text-align: center;
+  color: #000000;
+}
+
+.s {
+  color: #FFB900;
+}
+
+.p {
+  color: #E81123;
+}
+
+.t {
+  color: #0078D7;
+}
+
+.r {
+  color: #10893E;
+}
+
 /* main */
-p {
-  border: 1px solid red;
+.five-ws {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  margin: 20px 0;
+}
+
+.ws {
+  max-width: 350px;
+}
+
+.ws h2 {
+  text-align: center;
 }
 
 /* media queries */
 @media screen and (max-width: 768px) {
+  /* header */
   .nav-desktop li {
     display: none;
   }
@@ -91,6 +129,11 @@ p {
   .nav-desktop li:first-child,
   .nav-desktop li:last-child {
     display: inline-block;
+  }
+
+  /* main */
+  .five-ws {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -118,5 +161,18 @@ p {
 }
 
 .color {
-
+  /* https://fluentcolors.com/ */
+  color: #FFB900;
+  color: #E81123;
+  color: #0078D7;
+  color: #10893E;
+  color: #000000;
+  color: #847545;
+  /* https://flatuicolors.com/palette/defo */
+  color: #f1c40f;
+  color: #e74c3c;
+  color: #3498db;
+  color: #2ecc71;
+  color: #000000;
+  color: #f39c12;
 }
