@@ -3,12 +3,12 @@ var userVictory = 1;
 
 // code
 $(document).ready(function() {
-  
+
   console.log(userVictory);
 
   // toggle nav-mobile
-  $(document).on('click touchend', '.hamburger', function() {
-    $('body').toggleClass('overflow-hidden');
+  $(document).on('click', '.hamburger', function() {
+    $('body').toggleClass('overflow-y-hidden');
     $('.nav-mobile').toggleClass('display-flex');
   });
 
