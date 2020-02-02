@@ -75,10 +75,20 @@ a {
   background-color: red;
 }
 
+.nav-mobile .home {
+  position: absolute;
+  top: 24px;
+  left: 40px;
+}
+
 .nav-mobile .hamburger {
   position: absolute;
   top: 24px;
   right: 40px;
+}
+
+.nav-mobile a {
+  font-size: 32px;
 }
 
 .main-title {
@@ -113,10 +123,34 @@ a {
 
 .ws {
   max-width: 350px;
+  border-radius: 10px;
+  padding: 10px;
+  color: #ffffff;
 }
 
 .ws h2 {
+  margin: 0 0 10px 0;
   text-align: center;
+}
+
+.who {
+  background-color: #0063B1;
+}
+
+.what {
+  background-color: #0063B1;
+}
+
+.when {
+  background-color: #0063B1;
+}
+
+.where {
+  background-color: #0063B1;
+}
+
+.why {
+  background-color: #0063B1;
 }
 
 /* media queries */
